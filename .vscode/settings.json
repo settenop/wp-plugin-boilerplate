@@ -1,0 +1,11 @@
+{
+    // disable PHP Language Features as suggested by intelephense
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    // enable php sniffer extension
+    "phpSniffer.autoDetect": true,
+    "phpSniffer.run": "onType",
+    "[php]": {
+        "editor.defaultFormatter": "wongjn.php-sniffer"
+    }
+}
